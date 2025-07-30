@@ -7,7 +7,6 @@ let age = 38
 age = 37
 
 const num = 23
-num = 24
 console.log(num);
 
 console.log('My name is '+ firstName + ' ' + lastName);
