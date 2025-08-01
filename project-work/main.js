@@ -48,6 +48,15 @@
 
 // For loop
 
-for (let i = 1; i<= 5; i++){
-    console.log("Hi " + i);
+// for (let i = 1; i<= 5; i++){
+//     console.log("Hi " + i);
+// }
+
+
+let colorList = []
+
+for (let i = 0; i<= 2; i++){
+    let color = prompt("Enter you color "+ i + ":")
+    colorList.push  (color)
 }
+console.log(colorList);
